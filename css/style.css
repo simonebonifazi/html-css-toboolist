@@ -83,17 +83,33 @@ main {
     margin-top: 35px;
 }
 
-.green-check {
-    color: green;
+.check {
+    color: #2fdb2f;
     border-radius: 50%;
     border: solid 1px;
+    display: inline-block;
+    font-size: 8px;
+    padding: 4px;
+    width: 10px;
+    text-align: center;
 }
 
 .red-wrong {
     color: red;
     border-radius: 50%;
-    border: solid 1px
+    border: solid 1px;
+    display: inline-block;
+    font-size: 8px;
+    padding: 4px;
+    width: 10px;
+    text-align: center;
 }
+
+.check,
+.red-wrong {
+    font-weight: bolder;
+}
+
 
 /* elementi lista */
 ul {
@@ -116,26 +132,28 @@ li {
 }
 
 /*colori  singole icone */
-#editorial {
+
+.editorial {
     background-color: dodgerblue;
 }
 
-#q1-goals {
+
+.q1-goals {
     background-color: rgb(202, 68, 202);
 }
 
-#recruiting {
+.recruiting {
     background-color: rgb(28, 177, 98);
 }
 
-#mobile {
+.mobile {
     background-color: orange;
 }
 
-#website {
+.website {
     background-color: rgb(202, 58, 174);
 }
 
-#sales {
+.sales {
     background-color: rgb(124, 177, 20);
 }
