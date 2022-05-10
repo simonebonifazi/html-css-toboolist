@@ -1,0 +1,77 @@
+/* generics */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #6a6767;
+}
+
+/* header */
+header {
+    line-height: 85px;
+    background-color: white;
+}
+
+.logo-description {
+    font-size: 55px;
+    display: inline-block;
+    vertical-align: super;
+}
+
+img {
+    margin-left: 2.5%;
+}
+
+/* main */
+
+main {
+    height: 650px;
+    margin: 50px 15% 15px;
+    background-color: white;
+    border-radius: 5px;
+
+
+}
+
+.options {
+    height: 7.3%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/*  bottoni */
+
+.button {
+    display: inline-block;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 15px;
+
+
+}
+
+#add-task {
+    width: 55px;
+    height: 18px;
+    margin-left: 45px;
+    margin-top: 11px;
+    color: white;
+    background-color: dodgerblue;
+    padding-top: 7px;
+
+
+}
+
+#add-section {
+    width: 75px;
+    height: 16px;
+    color: rgb(183, 174, 174);
+    border: 1px solid rgb(183, 174, 174);
+    padding-top: 6px;
+    padding-bottom: 1px;
+    margin-left: 5px;
+}
