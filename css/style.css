@@ -1,7 +1,7 @@
 /* generics */
 * {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -32,8 +32,6 @@ main {
     margin: 50px 15% 15px;
     background-color: white;
     border-radius: 5px;
-
-
 }
 
 .options {
@@ -50,8 +48,6 @@ main {
     text-align: center;
     border-radius: 5px;
     margin-top: 15px;
-
-
 }
 
 #add-task {
@@ -62,8 +58,6 @@ main {
     color: white;
     background-color: dodgerblue;
     padding-top: 7px;
-
-
 }
 
 #add-section {
@@ -74,4 +68,70 @@ main {
     padding-top: 6px;
     padding-bottom: 1px;
     margin-left: 5px;
+}
+
+/* boolist */
+
+.list-container {
+    margin: 45px 0 0 45px;
+}
+
+.arrow-down {
+    color: #6a6767;
+    font-weight: bolder;
+    margin-top: 35px;
+}
+
+.green-check {
+    color: green;
+    border-radius: 50%;
+    border: solid 1px;
+}
+
+.red-wrong {
+    color: red;
+    border-radius: 50%;
+    border: solid 1px
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 15px 0;
+}
+
+.specifiche {
+    width: 55px;
+    height: 18px;
+    color: white;
+    border-radius: 5px;
+    font-size: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+#editorial {
+    background-color: dodgerblue;
+}
+
+#q1-goals {
+    background-color: rgb(202, 68, 202);
+}
+
+#recruiting {
+    background-color: rgb(28, 177, 98);
+}
+
+#mobile {
+    background-color: orange;
+}
+
+#website {
+    background-color: rgb(202, 58, 174);
+}
+
+#sales {
+    background-color: rgb(124, 177, 20);
 }
